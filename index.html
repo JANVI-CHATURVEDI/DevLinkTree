@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>practise-devlinktree</title>
+
+  
+  <!-- ✅ Tailwind CDN (okay for development) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-white min-h-screen">
+
+  <!-- + Button -->
+  <div id="plus"
+    class="absolute right-10 bottom-10 flex h-10 w-10 items-center justify-center rounded-full bg-blue-500 text-white cursor-pointer z-20">
+    +
+  </div>
+
+  <!-- MENU -->
+  <div id="menu"
+    class="bg-indigo-200 w-64 flex flex-col space-y-3 p-4 rounded-2xl fixed right-10 bottom-20 hidden z-20">
+
+    <div id="bgTrigger" class="bg-sky-500 text-white p-2 rounded-2xl cursor-pointer text-center">Background Color</div>
+
+    <div id="bgDropdown" class="space-y-2 hidden">
+      <input id="colorPicker" type="color" class="w-full h-10 rounded-md cursor-pointer" />
+      <input id="customGradient" type="text" placeholder="Enter gradient"
+        class="w-full p-2 rounded-md text-black placeholder:text-gray-400" />
+    </div>
+
+    <div id="bgimgTrigger" class="bg-sky-500 text-white p-2 rounded-2xl cursor-pointer text-center">Background Image</div>
+
+    <div id="bgimgDropdown" class="space-y-2 hidden">
+      <input id="imageUpload" type="file" accept="image/*" class="w-full p-2 rounded-md bg-white text-black" />
+    </div>
+
+    <div id="imgTrigger" class="bg-sky-500 text-white p-2 rounded-2xl cursor-pointer text-center">Upload Image</div>
+
+    <div id="imgDropdown" class="space-y-2 hidden">
+      <input type="file" id="imageInput" accept="image/*" class="w-full p-2 rounded-md bg-white text-black" />
+    </div>
+
+    <div id="noteTrigger" class="bg-sky-500 text-white p-2 rounded-2xl cursor-pointer text-center">Add Note</div>
+
+    <div id="addSocialBtn" class="bg-sky-500 text-white p-2 rounded-2xl cursor-pointer text-center">Add Social Link</div>
+
+  </div>
+
+  <!-- Canvas Area -->
+  <div id="canvas" class="absolute inset-0 z-0"></div>
+
+  
+
+  <!-- ✅ Your custom script (normal script, not type="module") -->
+  <script src="script.js"></script>
+</body>
+
+</html>
