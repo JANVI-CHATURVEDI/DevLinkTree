@@ -1,6 +1,10 @@
-# 🌐 DevLinkTree (Frontend Project)
+# 🌐 DevLinkTree 
 
 A customizable "Link in Bio" tool that lets users visually build a personal profile layout — with support for adding images, notes, background styles, and social links. Built entirely using **HTML**, **Tailwind CSS**, and **vanilla JavaScript**.
+
+ ⚠️ This is a **frontend-only** project — it **does not use a backend** or localStorage (yet).
+
+[![Live Demo](https://img.shields.io/badge/-🌐%20Live%20Demo-blueviolet?style=for-the-badge)](https://dev-link-tree.vercel.app)
 
 ---
 
