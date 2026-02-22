@@ -12,8 +12,8 @@
 -  **Interactive UI**: Floating `+` button opens a sleek menu for adding blocks  
 -  **Background Customization**: Solid colors, gradients, or uploaded images  
 -  **Image Blocks**: Resizable, draggable, and customizable  
--  **Notes & Content Sections** *(coming soon)*: Rich text support for personal notes  
--  **Social Media Cards** *(coming soon)*: Add links to your socials in style  
+-  **Notes & Content Sections**: Rich text support for personal notes  
+-  **Social Media Cards** : Add links to your socials in style  
 -  **Block Styling Options**: Adjust radius, shadow, width, height, and more  
 -  **Frontend-First**: No backend required (yet! localStorage coming soon)  
 
